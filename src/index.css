@@ -1,0 +1,48 @@
+/* === Install Tracker polish === */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 2;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Group highlighting by tech */
+tbody tr.group-a td { background: #f9fafb; }
+tbody tr.group-b td { background: #f3f4f6; }
